@@ -11,6 +11,7 @@ SDL_Window* g_pWindow = 0;
 SDL_Renderer* g_pRenderer = 0;
 bool g_bRunning = false;
 
+
 SDL_Texture* texureImage;
 SDL_Rect rectImage;
 
