@@ -49,7 +49,7 @@ int main(int argc, char* argv[])
 #ifdef UNICODE
     SDL_Surface* temp_surf = TTF_RenderUNICODE_Shaded(m_pFont, (Uint16*)L"한글 텍스쳐@테스트", color_Blue, color_White);
 #else
-    SDL_Surface* temp_surf = TTF_RenderUTF8_Shaded(m_pFont, "한글 텍스쳐", color_Blue, color_White);
+    SDL_Surface* temp_surf = TTF_RenderUTF8_Shaded(m_pFont, "한글 텍스쳐", color_Red, color_White);
 #endif
 		if (temp_surf == 0) {	
 				SDL_Log("%s", TTF_GetError());
